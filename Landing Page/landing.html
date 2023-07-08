@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="landing.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://kit.fontawesome.com/50f2d233a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="animate_animated animate_fadeInDown">
+    <nav>
+        <label class="logo">FooDies</label>
+        <ul>
+            <li><a href="#">home</a></li>
+            <div class="dropdown">
+                <li><a href="#">Features</a></li>
+                <ul class="dropdown-menu">
+                  <li><a href="#">vegetarians</a></li>
+                  <li><a href="#">Non-Vegetarians</a></li>
+                  <li><a href="#">coffee</a></li>
+                  <li><a href="#">Shake</a></li>
+                  <li><a href="#">Italian Food</a></li>
+                  <li><a href="#">chinese</a></li>
+                  <li><a href="#">More</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <li><a href="#">Receipes</a></li>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Manchurian</a></li>
+                  <li><a href="#">Dosa</a></li>
+                  <li><a href="#">Paneer-tikka</a></li>
+                  <li><a href="#">Pav-Bhaji</a></li>
+                  <li><a href="#">French Fries</a></li>
+                  <li><a href="#">Home-made Pizza</a></li>
+                  <li><a href="#">More</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <li><a href="#">Health</a></li>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Diabetes</a></li>
+                  <li><a href="#">Weigth Loss</a></li>
+                  <li><a href="#">Proteins</a></li>
+                  <li><a href="#">BP Low/High</a></li>
+                  <li><a href="#">Gym</a></li>
+                  <li><a href="#">More</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <li><a href="#">Drinks</a></li>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Tea</a></li>
+                  <li><a href="#">Coffee</a></li>
+                  <li><a href="#">Shake</a></li>
+                  <li><a href="#">Healthy Juice</a></li>
+                  <li><a href="#">Soup</a></li>
+                  <li><a href="#">More</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <li><a href="#">Desserts</a></li>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Kaju Katli</a></li>
+                  <li><a href="#">Rasgulla</a></li>
+                  <li><a href="#">Ice-cream</a></li>
+                  <li><a href="#">Custard</a></li>
+                  <li><a href="#">Laddoo</a></li>
+                  <li><a href="#">Halwa</a></li>
+                  <li><a href="#">More</a></li>
+                </ul>
+              </div>
+            <img src="3591924.png" id="icon">
+        </ul>
+    </nav>
+</header>
+<div class="name">
+    <h1>Welcome to FooDies</h1>
+    <h2>"From North to South, East to West: Unveiling the Diversity of Indian Cuisines!"</h2>
+    </div>
+    <div class="scroll-container">
+        <img src="S1.jpeg" alt="Cinque Terre">
+        <img src="S8.jpeg" alt="Forest">
+        <img src="S3.jpeg" alt="Northern Lights">
+        <img src="S5.jpg" alt="Mountains">
+        <img src="S2.jpeg" alt="">
+        <img src="S4.jpeg" alt="" class="">
+        <img src="S6.jpeg" alt="">
+        <img src="S7.jpg" alt="">
+    </div>
+    <script>
+        const scrollImage = document.getElementById('scroll-image');
+        const scrollContainer = document.querySelector('.scroll-container');
+      
+        scrollContainer.addEventListener('mousemove', function (event) {
+          const containerWidth = scrollContainer.offsetWidth;
+          const imageWidth = scrollImage.offsetWidth;
+          const scrollWidth = imageWidth - containerWidth;
+          const offsetX = event.offsetX;
+      
+          const scrollPosition = (offsetX / containerWidth) * scrollWidth;
+          scrollContainer.scrollLeft = scrollPosition;
+        });
+      </script>
+    <div class="bf">
+        <h1><u>BREAKFAST ></u> <i class="fa-light fa-angle-right"></i> </h1>
+    </div>
+        <div class="container">
+        <div class="card">
+            <img src="B1.jpg" alt="Oats Rava Idli">
+            <div class="intro">
+                <h1>Oats Rava Idli</h1>
+                <p>The Instant <span>Oats Rava Idli</span> Recipe is a perfect blend of oats and grains that you can make for a weekday breakfast.
+                    This recipe easy Oats Idli can be prepared in a jiffy for the busy weekday mornings.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="bb2.jpeg" alt="Oats Rava Idli">
+            <div class="intro">
+                <h1>Aloo Parantha</h1>
+                <p>Aloo means “potato” and paratha means “flatbread” in Hindi, so the name is quite telling: aloo paratha is an unleavened whole wheat flatbread stuffed with a savory, spiced, mashed potato filling.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="B3.jpg" alt="Oats Rava Idli">
+            <div class="intro">
+                <h1>Matar Poha</h1>
+                <p>Serve the Matar Poha for breakfast or a tea time evening snack along with a hot cup of Ginger Tea.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <div class="Lu">
+        <h1><u>LUNCH></u> <i class="fa-light fa-angle-right"></i> </h1>
+    <div class="container">
+        <div class="card">
+            <img src="L1.jpeg" alt="Oats Rava Idli">
+            <div class="intro2">
+                <h1>Masala Bhindi</h1>
+                <p> A delicious dish made with freshly bought okra. Grab some mustard oil, cumin seeds, fennel seeds, finely-chopped onions, ginger and a pinch of amchoor.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="L2.jpeg" alt="Oats Rava Idli">
+            <div class="intro2">
+                <h1>Chana Kulcha</h1>
+                <p> A classic dish that never goes out of style. The quintessential chana kulcha  needs only a few ingredients - cumin powder, ginger, coriander powder, carom powder and some mango powder, which is what gives the chana it's sour and tangy taste.  </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="L3.jpeg" alt="Oats Rava Idli">
+            <div class="intro2">
+                <h1>Rajma</h1>
+                <p> Rajma is a popular Indian curry made with kidney beans. This recipe is made with aroma of Kashmiri garam masala and a host of other spices.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="Din">
+        <h1><u>DINNER></u> <i class="fa-light fa-angle-right"></i> </h1>
+    <div class="container">
+        <div class="card">
+            <img src="D1.jpeg" alt="Oats Rava Idli">
+            <div class="intro3">
+                <h1>Malai Kofta</h1>
+                <p>It's a North Indian meal with fried vegetable balls and tomato-based gravy with coriander, cumin, chillies, cardamom, cream, and more. This is a good one for any vegetarians out there, too.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="D2.jpeg" alt="Oats Rava Idli">
+            <div class="intro3">
+                <h1>Paneer Kadhai Masala</h1>
+                <p>This fiery dish often ordered at restaurants can now be re-created at home. Paneer, spices, tomatoes, and chillies tossed together and served with ajwain rotis. This dish boasts of a myriad of spices and healthy ajwain rotis.  </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="D3.jpeg" alt="Oats Rava Idli">
+            <div class="intro3">
+                <h1>Khichdi</h1>
+                <p>Khichdi is a dish that speaks volumes about the wealth of nutrition that has been passed down through generations of India. The combination of rice and lentils has already been pegged as one that is sustainable as well as healthy. </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <span class="logo_name">FooDies</span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="link-boxes">
+                <ul class="box">
+                    <li class="link_name">Company</li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Get Started</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Social</li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">youtube</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul> 
+                <ul class="box">
+                    <li class="link_name">Courses</li>
+                    <li><a href="#">HTML & CSS</a></li>
+                    <li><a href="#">Photoshop</a></li>
+                    <li><a href="#">JS</a></li>
+                    <li><a href="#">Animations</a></li>
+                </ul>
+                <ul class="box input-box">
+                    <li class="link_name">Subscribe</li>
+                    <li><input type="text" placeholder="Enter your e-mail"></li>
+                    <li><input type="button" value="Subscribe"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright &#169; 2023<a href="#">FooDies</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
